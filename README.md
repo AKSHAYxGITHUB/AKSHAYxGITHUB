@@ -5,15 +5,15 @@
 <p align="left">
 𝗠𝗬 𝗣𝗥𝗢𝗙𝗜𝗟𝗘
 <p align="left">
-• Nmae: LUTTAPPI X GIT
+• NAME: LUTTAPPI X GIT
 <p align="left">
-• Age: 20
+• AGE: 20
 <p align="left">
-• Place: Kottayam/Kerala/India
+• LOCATION: Kottayam/Kerala/India
 <p align="left">
-• Language: English/Malayalam/Tamil/Python
+• LANGUAGE: English/Malayalam/Tamil/Python
 <p align="left">
-• Work: Python dev, smallscale business, crypto trader
+• WORK: Python dev, smallscale business, crypto trader
 
 <p align="center">
   <img src="https://github-stats-alpha.vercel.app/api/?username=LUTTAPPIXGITHUB&cc=000&tc=00ff00&ic=fff000&bc=fff" align="center">
