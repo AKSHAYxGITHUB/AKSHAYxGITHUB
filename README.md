@@ -37,9 +37,9 @@
 
 # ☎️ Cᴏɴᴛᴀᴄᴛ ᴍᴇ
 <p align="left">
-<a href="https://telegram.me/creatorbeatz"><img alt="Telegram" src="https://img.shields.io/badge/Joelkb-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
+<a href="https://telegram.me/LUTTAPPIXTG"><img alt="Telegram" src="https://img.shields.io/badge/LUTTAPPI-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/></a>
 <a href="https://telegram.me/KOM_GROUPS">
-    &nbsp;<img src="https://img.shields.io/badge/FREE MOVIES?style=for-the-badge&logo=telegram" width="200" height="28">&nbsp;
+    &nbsp;<img src="https://img.shields.io/badge/KOM FILMS?style=for-the-badge&logo=telegram" width="200" height="28">&nbsp;
   </a>
 </p>
 </div>
