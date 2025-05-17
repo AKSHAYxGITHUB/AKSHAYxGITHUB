@@ -1,4 +1,4 @@
-# Wᴇʟᴄᴏᴍᴇ ᴛᴏ AKSHAY x GɪᴛHᴜʙ Pʀᴏғɪʟᴇ 👋
+"""# Wᴇʟᴄᴏᴍᴇ ᴛᴏ AKSHAY x GɪᴛHᴜʙ Pʀᴏғɪʟᴇ 👋
 <pre align="left">
 <img align="left" width="100%" height="auto" src="https://i.imgur.com/iXuL1HG.png" height="175px">
 
@@ -42,9 +42,69 @@
     &nbsp;<img src="https://img.shields.io/badge/KOM-FILMS?style=for-the-badge&logo=telegram" width="200" height="28">&nbsp;
   </a>
 </p>
-</div>
+</div>"""
 
+<h1 align="center">Hi, I'm Akshay! 🚀</h1>
+<h3 align="center">An 18-year-old Computer Science Engineer focused on AI & ML</h3>
 
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?lines=AI/ML%20Engineer;Full-Stack%20Developer;Golang%20and%20Python%20Enthusiast;Tech%20Explorer&center=true&width=500&height=30">
+</p>
+
+---
+
+## 🧠 About Me
+- 🔭 I’m currently working on AI/ML models and automation tools  
+- 🌱 Exploring the latest in Machine Learning, LLMs, and Web3 tech  
+- 💬 Ask me about **Python, C++, Golang, Docker, MongoDB, Django**  
+- ⚡ Fun fact: I love futuristic interfaces and building clean, reactive UI
+
+---
+
+## 🛠️ Languages & Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,cpp,go,html,css,js,mongodb,django,docker,heroku,git,linux" />
+</p>
+
+---
+
+## 🏆 GitHub Stats & Achievements
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=AKSHAYxGITHUB&theme=matrix&margin-w=10&no-bg=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=AKSHAYxGITHUB&show_icons=true&theme=tokyonight" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AKSHAYxGITHUB&layout=compact&theme=tokyonight" />
+</p>
+
+---
+
+## 🌐 Connect with Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin" /></a>
+  <a href="https://twitter.com/" target="_blank"><img src="https://img.shields.io/badge/Twitter-black?style=for-the-badge&logo=twitter" /></a>
+  <a href="https://www.instagram.com/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram" /></a>
+</p>
+
+---
+
+## ☕ Support My Work
+
+<p align="center">
+  <a href="https://www.buymeacoffee.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Buy%20me%20a%20coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=AKSHAYxGITHUB&style=flat-square&color=blue" alt="profile views" />
+</p>
 
 
 
