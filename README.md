@@ -41,7 +41,7 @@
   <!-- Subtitle -->
   <text x="50%" y="135" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#00ff88" text-anchor="middle" letter-spacing="2">Developer  |  AI &amp; ML Student  |  Open Source Builder</text>
   <!-- Location -->
-  <text x="50%" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#aaaaaa" text-anchor="middle">Kerala → Chennai  •  Sathyabama Institute  •  BE CSE AI &amp; ML 2024–2028</text>
+  <text x="50%" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#aaaaaa" text-anchor="middle">India❤  •  Sathyabama Institute  •  BE CSE AI &amp; ML 2024–2028</text>
 </svg>
 
 <!-- TYPING SVG: demolab.com — maintained & stable -->
