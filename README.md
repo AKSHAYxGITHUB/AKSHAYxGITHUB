@@ -244,6 +244,6 @@ currently_learning:
 
 **Thanks for stopping by! Drop a star if you like my profile.**
 
-*Made with love from Kerala to Chennai*
+*Made with AKSHAY'S BRAIN*
 
 </div>
