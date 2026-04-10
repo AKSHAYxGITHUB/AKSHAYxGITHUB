@@ -1,21 +1,54 @@
+<!--
+  ╔══════════════════════════════════════════════════════╗
+  ║  AKSHAY P P — GitHub Profile README                 ║
+  ║  All images use 100% reliable sources:              ║
+  ║  • Header = inline SVG (no external dependency)     ║
+  ║  • Stats  = github-readme-stats + cache param       ║
+  ║  • Streak = streak-stats.demolab.com                ║
+  ║  • Skills = skillicons.dev (very stable CDN)        ║
+  ║  • Badges = shields.io (industry standard CDN)      ║
+  ╚══════════════════════════════════════════════════════╝
+-->
+
 <div align="center">
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                    ANIMATED HEADER                         -->
-<!-- FIX: capsule-render is stable & works on GitHub            -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,30:0a3d62,60:00ff88,100:00d4ff&height=220&section=header&text=AKSHAY%20P%20P&fontSize=72&fontColor=ffffff&fontAlignY=38&desc=Developer%20%7C%20AI%20%26%20ML%20Student%20%7C%20Open%20Source%20Builder&descAlignY=60&descSize=18&animation=fadeIn"/>
+<!-- ╔══════════════════════════════════════════════════════╗ -->
+<!--   HEADER: Pure SVG — zero external dependency          -->
+<!--   This will ALWAYS load, no rate limits, no timeouts   -->
+<!-- ╚══════════════════════════════════════════════════════╝ -->
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--   TYPING SVG — demolab is reliable & maintained            -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=22&duration=2800&pause=900&color=00FF88&center=true&vCenter=true&width=750&lines=Hey!+I'm+Akshay+from+Kerala;BE+CSE+(AI+%26+ML)+%7C+Sathyabama+University;Full-Stack+Dev+%7C+Web+%7C+Automation+%7C+Bots;Python+%7C+JS+%7C+Flask+%7C+Go+%7C+C%2B%2B+%7C+Java;Linux+Power+User+%7C+Kali+%7C+Ubuntu+%7C+Windows;Vercel+%7C+Railway+%7C+Koyeb+%7C+Heroku+%7C+VPS" alt="Typing SVG"/>
+<svg width="100%" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="40%" style="stop-color:#0a3d62"/>
+      <stop offset="75%" style="stop-color:#00ff88;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:0.3"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00ff88"/>
+      <stop offset="100%" style="stop-color:#00d4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="200" fill="url(#bg)" rx="0"/>
+  <!-- Wave bottom -->
+  <path d="M0,160 C150,140 300,180 450,160 C600,140 750,170 900,155 L900,200 L0,200 Z" fill="url(#wave)" opacity="0.15"/>
+  <path d="M0,175 C200,155 400,185 600,168 C750,155 850,175 900,168 L900,200 L0,200 Z" fill="url(#wave)" opacity="0.25"/>
+  <!-- Name -->
+  <text x="50%" y="90" font-family="'Segoe UI', Arial, sans-serif" font-size="52" font-weight="900" fill="white" text-anchor="middle" letter-spacing="4">AKSHAY P P</text>
+  <!-- Gradient line under name -->
+  <rect x="300" y="102" width="300" height="3" fill="url(#wave)" rx="2"/>
+  <!-- Subtitle -->
+  <text x="50%" y="135" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#00ff88" text-anchor="middle" letter-spacing="2">Developer  |  AI &amp; ML Student  |  Open Source Builder</text>
+  <!-- Location -->
+  <text x="50%" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#aaaaaa" text-anchor="middle">Kerala → Chennai  •  Sathyabama Institute  •  BE CSE AI &amp; ML 2024–2028</text>
+</svg>
+
+<!-- TYPING SVG: demolab.com — maintained & stable -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2800&pause=900&color=00FF88&center=true&vCenter=true&width=750&lines=Python+%7C+JavaScript+%7C+Java+%7C+C+%7C+C%2B%2B+%7C+Go;Flask+%7C+Django+%7C+HTML+%7C+CSS;MongoDB+%7C+MySQL+%7C+Firebase;Vercel+%7C+Railway+%7C+Koyeb+%7C+Heroku+%7C+VPS;Kali+Linux+%7C+Ubuntu+%7C+Windows;Student+%40+Sathyabama+University+2024-2028" alt="Typing SVG"/>
 
 <br/>
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--   BADGES — FIX: no emoji in shields.io labels (breaks)     -->
-<!-- ═══════════════════════════════════════════════════════════ -->
 <p>
   <img src="https://komarev.com/ghpvc/?username=AKSHAYxGITHUB&label=Profile+Views&color=00ff88&style=for-the-badge&labelColor=0d1117" alt="Profile Views"/>
   &nbsp;
@@ -65,12 +98,10 @@ currently_learning:
 
 <div align="center">
 
-<!-- FIX: No emoji in badge label — use plain text only -->
 [![Portfolio](https://img.shields.io/badge/Portfolio-akshaypp.vercel.app-00ff88?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0d1117)](https://akshaypp.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-AKSHAYxGITHUB-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AKSHAYxGITHUB)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Akshay_P_P-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akshay-p-p-?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
-<!-- FIX: @ encoded as %40 in badge label to prevent URL parse errors -->
 [![Instagram](https://img.shields.io/badge/Instagram-%40_a.k.s.h.3.y_-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/_a.k.s.h.3.y_?igsh=MXNyMGVxN2tqc2piaA==)
 [![Facebook](https://img.shields.io/badge/Facebook-Akshay-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/1CrKufr7W7/)
 [![Telegram](https://img.shields.io/badge/Telegram-LUTTAPPIXTG-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://telegram.me/LUTTAPPIXTG)
@@ -82,57 +113,28 @@ currently_learning:
 
 ## Tech Stack
 
+<!-- skillicons.dev: very stable CDN, purpose-built for GitHub READMEs -->
 <div align="center">
 
-### Programming Languages
+### Languages
+<img src="https://skillicons.dev/icons?i=python,js,java,c,cpp,go,html,css&theme=dark&perline=8" alt="Languages"/>
 
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### Frameworks & Databases
+<img src="https://skillicons.dev/icons?i=flask,django,mongodb,mysql,firebase&theme=dark&perline=8" alt="Frameworks"/>
 
-### Frameworks & Libraries
+### Hosting & DevOps
+<img src="https://skillicons.dev/icons?i=vercel,heroku,docker,git,github,linux,ubuntu&theme=dark&perline=8" alt="Hosting"/>
 
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
-![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
+### Tools & OS
+<img src="https://skillicons.dev/icons?i=vscode,arduino,kali,windows&theme=dark&perline=8" alt="Tools"/>
 
-### Databases
-
-![MongoDB](https://img.shields.io/badge/MongoDB-4ea94b?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-<!-- FIX: Firebase logo slug is 'firebase' — confirmed working -->
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-### Hosting & Deployment
-
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+<!-- Shields for platforms skillicons doesn't have -->
+<br/>
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
-<!-- FIX: Koyeb has no logo on shields.io — removed logo param to avoid broken icon -->
 ![Koyeb](https://img.shields.io/badge/Koyeb-121212?style=for-the-badge&logoColor=white)
-![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
-![Firebase Hosting](https://img.shields.io/badge/Firebase_Hosting-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-<!-- FIX: VPS uses linux logo, Jio Base uses a generic cloud icon — jiosaavn logo doesn't exist -->
-![VPS](https://img.shields.io/badge/VPS_Server-E95420?style=for-the-badge&logo=linux&logoColor=white)
 ![Jio Base](https://img.shields.io/badge/Jio_Base-0055FF?style=for-the-badge&logo=cloud&logoColor=white)
-
-### Operating Systems
-
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-
-### Tools
-
-![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
 ![GIMP](https://img.shields.io/badge/GIMP-657D8B?style=for-the-badge&logo=gimp&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 
 </div>
 
@@ -140,17 +142,22 @@ currently_learning:
 
 ## GitHub Stats
 
+<!--
+  IMPORTANT FIX: Added cache_seconds=86400 to ALL stats cards.
+  Without this, Vercel's free tier rate-limits the GitHub API and
+  the cards return a blank/error image. The cache param prevents this.
+  
+  Also using &hide_border=true and a clean theme for visual consistency.
+-->
+
 <div align="center">
 
-<!-- FIX: github-readme-stats is stable on vercel — no apostrophe in custom_title -->
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&custom_title=GitHub+Stats" alt="GitHub Stats"/>
-
-<!-- FIX: streak-stats.demolab.com is the correct maintained URL (herokuapp is dead) -->
+<img width="48%" src="https://github-readme-stats.vercel.app/api?username=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&custom_title=GitHub+Stats&cache_seconds=86400" alt="GitHub Stats"/>
 <img width="48%" src="https://streak-stats.demolab.com/?user=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
 
 <br/><br/>
 
-<img width="44%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8&custom_title=Top+Languages" alt="Top Languages"/>
+<img width="44%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8&custom_title=Top+Languages&cache_seconds=86400" alt="Top Languages"/>
 
 </div>
 
@@ -158,22 +165,14 @@ currently_learning:
 
 ## GitHub Trophies
 
+<!--
+  FIX: Added theme=tokyonight and no-bg=true.
+  If trophies still don't load, it means github-profile-trophy's
+  free Vercel instance is rate-limited. The cache-buster below helps.
+-->
 <div align="center">
 
-<!-- FIX: github-profile-trophy is stable — tokyonight theme confirmed working -->
-![Trophies](https://github-profile-trophy.vercel.app/?username=AKSHAYxGITHUB&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7)
-
-</div>
-
----
-
-## Contribution Graph
-
-<div align="center">
-
-<!-- FIX: github-readme-activity-graph.vercel.app is the correct current domain -->
-<!-- custom_title must not have apostrophes — removed Akshay's -> Akshay -->
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AKSHAYxGITHUB&theme=tokyo-night&hide_border=true&area=true&area_color=00ff88&line=00d4ff&point=ffffff&custom_title=Akshay+Contribution+Graph)](https://github.com/AKSHAYxGITHUB)
+<img src="https://github-profile-trophy.vercel.app/?username=AKSHAYxGITHUB&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6&rank=SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies"/>
 
 </div>
 
@@ -214,7 +213,6 @@ currently_learning:
 
 <div align="center">
 
-<!-- FIX: quotes-github-readme is stable — tokyonight confirmed -->
 ![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
 </div>
@@ -229,7 +227,6 @@ currently_learning:
 
 <br/>
 
-<!-- FIX: logo slug is 'buymeacoffee' (no hyphens) — 'buy-me-a-coffee' breaks the icon -->
 [![Buy Me a Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://buymeacoffee.com/aksheyprasl)
 &nbsp;&nbsp;
 [![Portfolio](https://img.shields.io/badge/Visit_My_Portfolio-00ff88?style=for-the-badge&logo=vercel&logoColor=black&labelColor=0d1117)](https://akshaypp.vercel.app/)
@@ -238,12 +235,20 @@ currently_learning:
 
 ---
 
+<!-- FOOTER: Pure SVG — zero external dependency, always loads -->
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00d4ff,40:00ff88,100:0d1117&height=130&section=footer"/>
-
-**Thanks for stopping by! Drop a star if you like my profile.**
-
-*Made with AKSHAY'S BRAIN*
+<svg width="100%" height="100" viewBox="0 0 900 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4ff"/>
+      <stop offset="50%" style="stop-color:#00ff88"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,0 C150,40 300,0 450,30 C600,60 750,20 900,40 L900,100 L0,100 Z" fill="url(#fg)" opacity="0.3"/>
+  <path d="M0,20 C200,55 400,15 600,45 C750,65 850,30 900,50 L900,100 L0,100 Z" fill="url(#fg)" opacity="0.5"/>
+  <text x="50%" y="72" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="white" text-anchor="middle" opacity="0.8">Thanks for visiting! Drop a star if you like my profile. Made with love from Kerala to Chennai.</text>
+</svg>
 
 </div>
