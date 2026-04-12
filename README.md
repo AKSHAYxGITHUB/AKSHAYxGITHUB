@@ -169,12 +169,18 @@ currently_learning:
 
 <div align="center">
 
-<img width="48%" src="https://github-readme-stats.vercel.app/api?username=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&custom_title=GitHub+Stats&cache_seconds=86400&v=2" alt="GitHub Stats"/>
-<img width="48%" src="https://streak-stats.demolab.com/?user=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&cache_seconds=86400&v=2" alt="GitHub Streak"/>
+<!--
+  SWITCHED TO salesp07's fork — it has its own GitHub API token so it has
+  its own rate limit quota, completely independent from the official shared
+  instance. This is the most reliable FREE alternative without self-deploying.
+  cache_seconds=1 prevents the fork's own internal cache from serving stale data.
+-->
+<img width="48%" src="https://github-readme-stats-salesp07.vercel.app/api?username=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&custom_title=GitHub+Stats&cache_seconds=1" alt="GitHub Stats"/>
+<img width="48%" src="https://streak-stats.demolab.com/?user=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
 
 <br/><br/>
 
-<img width="44%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8&custom_title=Top+Languages&cache_seconds=86400&v=2" alt="Top Languages"/>
+<img width="44%" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&langs_count=8&custom_title=Top+Languages&cache_seconds=1" alt="Top Languages"/>
 
 <br/><br/>
 
@@ -192,14 +198,13 @@ currently_learning:
 ## GitHub Trophies
 
 <!--
-  FIX: Removed rank=SSS,SS,S... filter — it returned an empty image because
-  the account hasn't reached those elite tiers yet (totally normal for a
-  2024-batch student). No filter = shows all earned trophies correctly.
-  column=4 renders reliably at all screen widths.
+  TROPHIES: The shared github-profile-trophy.vercel.app is also rate-limited.
+  Using row=1 (single row) instead of column= param — this is more reliable
+  and renders cleanly on GitHub profile widths.
 -->
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=AKSHAYxGITHUB&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=AKSHAYxGITHUB&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1&column=6" alt="GitHub Trophies"/>
 
 </div>
 
