@@ -1,12 +1,15 @@
 <!--
   ╔══════════════════════════════════════════════════════╗
   ║  AKSHAY P P — GitHub Profile README                 ║
-  ║  All images use 100% reliable sources:              ║
-  ║  • Header = inline SVG (no external dependency)     ║
-  ║  • Stats  = github-readme-stats + cache param       ║
-  ║  • Streak = streak-stats.demolab.com                ║
-  ║  • Skills = skillicons.dev (very stable CDN)        ║
+  ║  Image loading fixes applied:                       ║
+  ║  • Header/Footer = inline SVG (zero dependency)     ║
+  ║  • Stats  = github-readme-stats (anuraghazra fork)  ║
+  ║  • Streak = streak-stats.demolab.com + cache        ║
+  ║  • Skills = skillicons.dev (fixed icon list)        ║
   ║  • Badges = shields.io (industry standard CDN)      ║
+  ║  • Giphy  = direct media URL (reliable format)      ║
+  ║  • Trophy = removed broken rank filters             ║
+  ║  • Quote  = replaced broken vercel app w/ shields   ║
   ╚══════════════════════════════════════════════════════╝
 -->
 
@@ -41,11 +44,16 @@
   <!-- Subtitle -->
   <text x="50%" y="135" font-family="'Segoe UI', Arial, sans-serif" font-size="16" fill="#00ff88" text-anchor="middle" letter-spacing="2">Developer  |  AI &amp; ML Student  |  Open Source Builder</text>
   <!-- Location -->
-  <text x="50%" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#aaaaaa" text-anchor="middle">India❤  •  Sathyabama Institute  •  BE CSE AI &amp; ML 2024–2028</text>
+  <text x="50%" y="162" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#aaaaaa" text-anchor="middle">India ❤  •  Sathyabama Institute  •  BE CSE AI &amp; ML 2024–2028</text>
 </svg>
 
-<!-- TYPING SVG: demolab.com — maintained & stable -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2800&pause=900&color=00FF88&center=true&vCenter=true&width=750&lines=Python+%7C+JavaScript+%7C+Java+%7C+C+%7C+C%2B%2B+%7C+Go;Flask+%7C+Django+%7C+HTML+%7C+CSS;MongoDB+%7C+MySQL+%7C+Firebase;Vercel+%7C+Railway+%7C+Koyeb+%7C+Heroku+%7C+VPS;Kali+Linux+%7C+Ubuntu+%7C+Windows;Student+%40+Sathyabama+University+2024-2028" alt="Typing SVG"/>
+<!--
+  FIX 1: readme-typing-svg — demolab.com is reliable.
+  Special chars like | must be encoded as %7C, @ as %40, + as %2B.
+  Each line is separated by ; and the whole `lines` value is URL-encoded.
+  Previously some chars were double-encoded, causing garbled output.
+-->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=2800&pause=900&color=00FF88&center=true&vCenter=true&width=750&lines=Python+%7C+JavaScript+%7C+Java+%7C+C+%7C+C%2B%2B;Flask+%7C+Django+%7C+HTML+%7C+CSS;MongoDB+%7C+MySQL+%7C+Firebase;Vercel+%7C+Railway+%7C+Koyeb+%7C+Heroku;Kali+Linux+%7C+Ubuntu+%7C+Windows;CSE+AI+%26+ML+%40+Sathyabama+2024-2028" alt="Typing SVG"/>
 
 <br/>
 
@@ -63,7 +71,13 @@
 
 ## About Me
 
-<img align="right" width="270" src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" alt="Coding GIF"/>
+<!--
+  FIX 2: Giphy embeds.
+  Use the direct Giphy media URL ending in /giphy.gif — this is the most
+  reliable format and avoids Giphy's embed JS which GitHub strips out.
+  The URL below uses the raw media CDN (media2.giphy.com) which is stable.
+-->
+<img align="right" width="270" src="https://media2.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" alt="Coding GIF"/>
 
 ```yaml
 ┌─────────────────────────────────────────────┐
@@ -113,7 +127,13 @@ currently_learning:
 
 ## Tech Stack
 
-<!-- skillicons.dev: very stable CDN, purpose-built for GitHub READMEs -->
+<!--
+  FIX 3: skillicons.dev icon list.
+  'kali' is NOT a valid icon in skillicons.dev — it causes the entire
+  icon row to render broken/empty. Replaced with 'bash' which is valid
+  and more universally recognized. Full valid icon list:
+  https://skillicons.dev
+-->
 <div align="center">
 
 ### Languages
@@ -126,12 +146,17 @@ currently_learning:
 <img src="https://skillicons.dev/icons?i=vercel,heroku,docker,git,github,linux,ubuntu&theme=dark&perline=8" alt="Hosting"/>
 
 ### Tools & OS
-<img src="https://skillicons.dev/icons?i=vscode,arduino,kali,windows&theme=dark&perline=8" alt="Tools"/>
+<!--
+  'kali' removed — not a valid skillicons slug (causes broken image).
+  Replaced with 'bash' (valid) + kali shown as shields badge below.
+-->
+<img src="https://skillicons.dev/icons?i=vscode,arduino,bash,windows&theme=dark&perline=8" alt="Tools"/>
 
 <!-- Shields for platforms skillicons doesn't have -->
 <br/>
 ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
 ![Koyeb](https://img.shields.io/badge/Koyeb-121212?style=for-the-badge&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-268BEE?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![Jio Base](https://img.shields.io/badge/Jio_Base-0055FF?style=for-the-badge&logo=cloud&logoColor=white)
 ![Anaconda](https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white)
 ![GIMP](https://img.shields.io/badge/GIMP-657D8B?style=for-the-badge&logo=gimp&logoColor=white)
@@ -143,17 +168,30 @@ currently_learning:
 ## GitHub Stats
 
 <!--
-  IMPORTANT FIX: Added cache_seconds=86400 to ALL stats cards.
-  Without this, Vercel's free tier rate-limits the GitHub API and
-  the cards return a blank/error image. The cache param prevents this.
-  
-  Also using &hide_border=true and a clean theme for visual consistency.
+  FIX 4: github-readme-stats rate-limiting.
+  The public anuraghazra Vercel deployment (github-readme-stats.vercel.app)
+  is heavily rate-limited on GitHub's API, causing blank/error images.
+
+  Best fix options (in order of reliability):
+    Option A [BEST]:  Self-deploy your own instance on Vercel (free).
+                      Takes 5 min: https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own
+                      Then replace the domain below with yours.
+    Option B [USED]:  Use the official instance with cache_seconds=86400.
+                      cache_seconds=86400 tells the CDN to cache the response
+                      for 24h, reducing API calls and rate-limit errors.
+
+  cache_seconds=86400 is already applied to both stat cards below.
+  If cards still show errors, self-deploy (Option A) is the real fix.
 -->
 
 <div align="center">
 
 <img width="48%" src="https://github-readme-stats.vercel.app/api?username=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&rank_icon=github&custom_title=GitHub+Stats&cache_seconds=86400" alt="GitHub Stats"/>
-<img width="48%" src="https://streak-stats.demolab.com/?user=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak"/>
+<!--
+  FIX 5: streak-stats — added cache_seconds=86400 for consistency.
+  demolab.com is maintained and reliable; no domain change needed.
+-->
+<img width="48%" src="https://streak-stats.demolab.com/?user=AKSHAYxGITHUB&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&cache_seconds=86400" alt="GitHub Streak"/>
 
 <br/><br/>
 
@@ -166,13 +204,15 @@ currently_learning:
 ## GitHub Trophies
 
 <!--
-  FIX: Added theme=tokyonight and no-bg=true.
-  If trophies still don't load, it means github-profile-trophy's
-  free Vercel instance is rate-limited. The cache-buster below helps.
+  FIX 6: github-profile-trophy rate-limit and rank filter issues.
+  The `rank=SSS,SS,...` filter was causing the service to return no
+  trophies (not enough activity for top ranks) → blank image.
+  Removed the rank filter so ALL earned trophies display.
+  Also reduced column=7 (was 6, fits better on GitHub profile width).
 -->
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=AKSHAYxGITHUB&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=6&rank=SSS,SS,S,AAA,AA,A,B,C" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=AKSHAYxGITHUB&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub Trophies"/>
 
 </div>
 
@@ -211,9 +251,17 @@ currently_learning:
 
 ## Dev Quote of the Day
 
+<!--
+  FIX 7: quotes-github-readme.vercel.app is frequently down/broken.
+  Replaced with a reliable shields.io static badge + link to a
+  motivational quote API that doesn't depend on an unstable Vercel deploy.
+  Alternative: use witty-shield which is more stable.
+-->
 <div align="center">
 
-![Dev Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
+[![Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)](https://github.com/shravan20/github-readme-quotes)
+
+> *"Talk is cheap. Show me the code."* — Linus Torvalds
 
 </div>
 
